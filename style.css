@@ -1,0 +1,121 @@
+.navbar{
+    background-color: #4A148C
+    !important;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: bold;
+}
+
+img{
+    width: 110px;
+}
+
+.fa-shopping-cart{
+    font-size: 32px !important;
+}
+.fa-user-circle{
+    font-size: 32px !important;
+}
+.nav-item:hover{
+    background-color:#0D47A1;
+
+}
+.dropdown-item:hover{
+    color: #DD2C00
+    !important;
+    
+}
+.dropdown-item{
+    font-weight: bold !important;
+    color: black;
+}
+.fa-truck,.fa-life-ring,.fa-thumbs-up{
+    font-size: 50px !important;
+    margin-right: 10px;
+    color: #DD2C00 ;
+}
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: #4A148C;
+    box-shadow: 2px 4px 5px gray;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.maincard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+h3{
+    color:  #DD2C00;
+}
+.card1:active{
+    background-color: yellow;
+}
+.card2:active{
+    background-color: yellow;
+}
+.card3:active{
+    background-color: yellow;
+}
+@media screen and (max-width: 600px) {
+    .card1,.card2,.card3{
+        width: 100%;
+    }
+    
+  }
+  .newarrival{
+      margin-top: 30px;
+  }
+  .card{
+      width: 200px;
+      height: auto;
+      text-align: center !important;
+  }
+  .card-text{
+      font-weight: bold;
+  }
+  .btn-primary{
+      width: 100%;
+      background-color:  #4A148C !important;
+  }
+  .heading{
+      text-align: center;
+      font-weight: bold !important;
+      color: #4A148C !important;
+      margin: 20px;
+      font-size: 40px ;
+      
+      
+  }
+.heading > h1{
+    text-shadow: 2px 2px 4px black !important;
+}
+
+  
+@media screen and (max-width: 600px) {
+    .card{
+        width: 100%;
+    }
+    
+  }
+
+.footer{
+    width: 100%;
+    background-color:  #4A148C;
+    height: 70px;
+    
+}
+  .footer > div{
+      text-align: center;
+      color: whitesmoke;
+      
+  }
+  
